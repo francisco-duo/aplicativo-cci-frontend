@@ -11,7 +11,7 @@ export default function HomeScreen({ route }) {
 
   const services = [
     { id: 1, title: "Comunicados", icon: require("@/assets/images/partial-react-logo.png"), notificationCount: 5 },
-    { id: 2, title: "Destaques", icon: require("@/assets/images/partial-react-logo.png") },
+    { id: 2, title: "Financeiro", icon: require("@/assets/images/partial-react-logo.png") },
     { id: 3, title: "Gestão de Comunicados", icon: require("@/assets/images/partial-react-logo.png") },
     { id: 4, title: "Agenda", icon: require("@/assets/images/partial-react-logo.png") },
     { id: 5, title: "Conversas", icon: require("@/assets/images/partial-react-logo.png") },
@@ -19,6 +19,7 @@ export default function HomeScreen({ route }) {
     { id: 7, title: "Registro Diário", icon: require("@/assets/images/partial-react-logo.png") },
     { id: 8, title: "Verificar Registro Diário", icon: require("@/assets/images/partial-react-logo.png") },
     { id: 9, title: "Notas", icon: require("@/assets/images/partial-react-logo.png") },
+    { id: 10, title: "Carteirinha", icon: require("@/assets/images/partial-react-logo.png") },
   ];
 
   const handleServicePress = (title) => {
